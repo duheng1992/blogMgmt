@@ -2,8 +2,8 @@ import axios from 'axios';
 
 axios.defaults.withCredentials = true//每次请求，无论是否跨域，都带上cookie信息
 //base是服务器地址
-let base = 'http://localhost:8888';
-
+//let base = 'http://192.168.1.88:8888';
+let base = 'http://122.112.216.70:8888';
 //axios.defaults.baseURL = base;
 
 // export const async login(){

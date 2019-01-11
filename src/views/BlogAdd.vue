@@ -100,7 +100,7 @@ export default {
           //console.log(res)
           var url = res.data.resData;
           //let res = //访问服务器,返回url：将返回的url替换到文本原位置![...](0) -> ![...](url)
-
+	 console.log(`${getBlogImgBase}url`);
           this.$refs.md.$img2Url(pos, `${getBlogImgBase}`+url);
 
         });
